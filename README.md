@@ -16,54 +16,67 @@
 |12장 직렬화|TBC|
 
 # How to contribute docs
-## Step 1. Clone this Repo
+## Step 1. Fork Study Repo.
+**스터디 진행을 위해 해당 Repo를 자신의 Repo로 Fork한다.**
 
 ## Step 2. Create Your Branch
 
 ## Step 3. Write Docs
+### Directory Tree
+```
+[폴더 구조]
+|- /chapter{n}
+|- README.md # Chapter에 대한 Description
+|-- /{자신의 Github 아이디}
+|--|-- README.md # 아이템들에 대한 Docs 작성
+|--|-- /assets # README.md에 들어가는 assets 폴더
+|--|--|-- img1.png
+|--|--|-- img2.png
+|--|-- /src (Optional) # 참고할만한 코드가 있으면 Import
+|--|--|--/{package-path}
+```
 ### 작성 규칙
+- 해당 Chapter 폴더 하위에 자신의 Github 닉네임 ([참고](./chapter2/README.md#과제-완료-인원)) 으로 폴더를 생성.
+- 자신의 Github 닉네임 폴더 하위에 Wiki를 작성하는 `README.md` 파일 작성 
+    - Chapter에 대한 모든 내용 작성! 
+    - ❌ Item별로 README 파일을 쪼개면 안됨!!
+- 자신의 Github 닉네임 폴더 하위에 `assets`폴더에는 Wiki에 들어가는 이미지를 Import
+    - ❗ 꼭 이미지의 파일 이름은 `영문`으로 구성되어야 함!! (ex. java-jvm.png)
+    - ❗ `README.md` 파일에 이미지를 임베딩할 경우에는 꼭 상대경로로 지정!!
+        ``` 
+        ![java-jvm](./assets/java-jvm.png) 
+        ```
+### WiKi Template
+- Wiki를 작성하는 `README.md` 파일 작성 시에는 template/README.md를 참고하여 작성!!
+- README.md 상단에는 `YAML frontmatter block`을 꼭 달아야 함!!
+```
+---
+sidebar: auto
+lang: ko-KR
+title: effective-java-chapter1
+---
+# ITEM 1. 생성자 대신 정적 팩터리 메서드를 고려하라.
+## ~~
 
-! asset의 경우에는 이름을 꼭!! 영문 이름으로 설정해서 업로드 해주세요!
-ex) 자바jvm구조.png -> java-jvm.png
-! asset을 readme에 임베딩 할때는 꼭!! 상대 경로로 임베딩 해주세요!
+# ITEM 2. 생성자에 매개변수가 많다면 빌더를 고려하라.
+## ~~
 ```
-ex) ![설치1](./assets/install1.png)
-```
+
 ## Step 4. Create Pull Request
-
-## 
+- WiKi 작성을 완료하였다면, PR(Pull Request)를 생성.
+- PR을 생성할 때에는 
+- 각 아이템들을 공부하다가 이해가 되지 않거나 토론할 내용이 있다면 Comment를 남기기.
+## Step 5. Noti Messenger
 
 # To do every weeks
 
 스터디 장은 Project 기준으로 Chapter별로 Issues 생성
 
-## 📜 진행방식
-
-- 하나의 아이템 마다 하나의 Github Issue가 등록 됩니다.
-- 각 아이템들을 공부하다가 이해가 되지 않거나 토론할 내용이 있다면 Comment를 남겨주세요.
+## 📜회고 진행방식
 - 해당 Comment에 대해서는 자유롭게 답변을 달아 주시면 됩니다.
-- 매주 수요일 21시 전에 각자 발표 자료를 PR로 올립니다.
-- 매주 수요일 21시에는 한 사람 당 한개씩 아이템 발표를 진행합니다.
-- 발표에 대한 내용은 아래를 참고해주세요.
-- 발표가 모두 끝나면 30분 내외의 회고를 진행합니다.
-- 회고에 대한 내용은 아래를 참고해주세요.
-
-## 🖥 발표
-
+- 격주로 오프라인 스터디를 진행합니다.
+- 한 사람 당 한개씩 아이템 발표를 진행합니다.
 - 매주 한 사람당 한 개의 아이템을 준비하여 발표를 진행합니다.
-- 발표 자료는 수요일 21시 전까지 PR로 올려주세요.
-- Effective Java에 나오는 예제 코드 외적으로 자신이 생각하는 적절한 예제코드를 작성해주셔야 합니다.
-    - Effective Java에 나오는 예제 코드를 발표자료에 포함하셔도 되고, 안해주셔도 됩니다.
-    - 그러나 자신만의 예제코드는 꼭 한개씩은 넣어주시길 바라겠습니다.
-- 발표자료는 PPT, Markdown, PDF 등 자유롭게 올려주시면 됩니다.
-- 발표 시간은 10분 내로 준비해주세요. (발표할 때 반드시 해당 아이템의 모든 내용을 담을 필요는 없습니다. )
-- 발표는 각 팀끼리 나눠서 진행합니다.
+- 발표 자료는 따로 만들 필요 없이 README와 PR의 Comment를 위주로 진행합니다.
+- Effective Java에 나오는 예제 코드 외적으로 자신이 생각하는 적절한 예제코드를 작성하기 (Optional).
 
-- PR에 대한 머지는 직접 운영진이 할 예정입니다.
-- 발표자료의 파일명은 아래와 같이 해주세요.
-
-```java
-아이템번호_아이템이름_본인이름
-```
-
-- PR을 올려주실때는 포크 저장소를 이용해주세요.

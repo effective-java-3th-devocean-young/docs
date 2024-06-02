@@ -1,16 +1,39 @@
+# Chapter 8. 메서드
+![Issue Status](https://img.shields.io/badge/Issue_7-TO_DO-yellow)
 
-# Issue Info
+## 스터디 기간
+24.XX.XX ~ 24.XX.XX
 
-# Detail
-2장 객체 생성과 파괴
-아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
-아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라
-아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라
-아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라
-아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
-아이템 6. 불필요한 객체 생성을 피하라
-아이템 7. 다 쓴 객체 참조를 해제하라
-아이템 8. finalizer와 cleaner 사용을 피하라
-아이템 9. try-finally보다는 try-with-resources를 사용하라
+## Detail
+- 아이템 49. 매개변수가 유효한지 검사하라
+- 아이템 50. 적시에 방어적 복사본을 만들라
+- 아이템 51. 메서드 시그니처를 신중히 설계하라
+- 아이템 52. 다중정의는 신중히 사용하라
+- 아이템 53. 가변인수는 신중히 사용하라
+- 아이템 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라
+- 아이템 55. 옵셔널 반환은 신중히 하라
+- 아이템 56. 공개된 API 요소에는 항상 문서화 주석을 작성하라
 
-# 발표자
+## 과제 완료 인원
+|이름|닉네임|확인✔|위키|
+|---|------|----|---|
+|김경환|KyongHwan-Kim|🛠|[링크](/effective-java/chapter8/KyongHwan-Kim)|
+|이승연|tmddus2|🛠|[링크](/effective-java/chapter8/tmddus2)|
+|송가현|SongGaHyeon|🛠|[링크](/effective-java/chapter8/Songanni)|
+|조자영|cho-ja-young|🛠|[링크](/effective-java/chapter8/cho-ja-young)|
+|한상호|bbbang105|🛠|[링크](/effective-java/chapter8/bbbang105)|
+
+
+## 발표자
+|Item|Member|
+|----|------|
+|Item49| **🎉 TBC**|
+|Item50| **🎉 TBC**|
+|Item51| **🎉 TBC**|
+|Item52| **🎉 TBC**|
+|Item53| **🎉 TBC**|
+|Item54| **🎉 TBC**|
+|Item55| **🎉 TBC**|
+|Item56| **🎉 TBC**|
+
+

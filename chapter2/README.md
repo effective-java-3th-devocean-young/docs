@@ -1,4 +1,5 @@
-# Chapter 2. 객체 생성과 파괴
+# Chapter 2. 객체 생성과 파괴 
+![Issue Status](https://img.shields.io/badge/Issue_1-In_Progress-blue)
 
 ## 스터디 기간
 24.05.26 ~  24.06.06
@@ -17,14 +18,12 @@
 ## 과제 완료 인원
 |이름|닉네임|확인✔|위키|
 |---|------|----|---|
-|김경환|KyongHwan-Kim|🛠|[링크](/effective-java/chapter1/KyongHwan-Kim)|
-|이승연|tmddus2|🛠|[링크](/effective-java/chapter1/tmddus2)|
-|송가현|SongGaHyeon|🛠|[링크](/effective-java/chapter1/Songanni)|
-|조자영|cho-ja-young|🛠|[링크](/effective-java/chapter1/cho-ja-young)|
-|한상호|bbbang105|🛠|[링크](/effective-java/chapter1/eunsoo03181)|
+|김경환|KyongHwan-Kim|🛠|[링크](/effective-java/chapter2/KyongHwan-Kim)|
+|이승연|tmddus2|🛠|[링크](/effective-java/chapter2/tmddus2)|
+|송가현|SongGaHyeon|🛠|[링크](/effective-java/chapter2/Songanni)|
+|조자영|cho-ja-young|🛠|[링크](/effective-java/chapter2/cho-ja-young)|
+|한상호|bbbang105|🛠|[링크](/effective-java/chapter2/bbbang105)|
 
-## Issue Info
-[ ] #1
 
 ## 발표자
 |Item|Member|

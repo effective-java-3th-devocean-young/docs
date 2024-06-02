@@ -1,16 +1,41 @@
+# Chapter 11. 동시성
+![Issue Status](https://img.shields.io/badge/Issue_10-TO_DO-yellow)
 
-# Issue Info
+## 스터디 기간
+24.XX.XX ~ 24.XX.XX
 
-# Detail
-2장 객체 생성과 파괴
-아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라
-아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라
-아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라
-아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라
-아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
-아이템 6. 불필요한 객체 생성을 피하라
-아이템 7. 다 쓴 객체 참조를 해제하라
-아이템 8. finalizer와 cleaner 사용을 피하라
-아이템 9. try-finally보다는 try-with-resources를 사용하라
+## Detail
+- 아이템 78. 공유 중인 가변 데이터는 동기화해 사용하라
+- 아이템 79. 과도한 동기화는 피하라
+- 아이템 80. 스레드보다는 실행자, 태스크, 스트림을 애용하라
+- 아이템 81. wait와 notify보다는 동시성 유틸리티를 애용하라
+- 아이템 82. 스레드 안전성 수준을 문서화하라
+- 아이템 83. 지연 초기화는 신중히 사용하라
+- 아이템 84. 프로그램의 동작을 스레드 스케줄러에 기대지 말라
 
-# 발표자
+## 과제 완료 인원
+|이름|닉네임|확인✔|위키|
+|---|------|----|---|
+|김경환|KyongHwan-Kim|🛠|[링크](/effective-java/chapter11/KyongHwan-Kim)|
+|이승연|tmddus2|🛠|[링크](/effective-java/chapter11/tmddus2)|
+|송가현|SongGaHyeon|🛠|[링크](/effective-java/chapter11/Songanni)|
+|조자영|cho-ja-young|🛠|[링크](/effective-java/chapter11/cho-ja-young)|
+|한상호|bbbang105|🛠|[링크](/effective-java/chapter11/bbbang105)|
+
+
+## 발표자
+|Item|Member|
+|----|------|
+|Item78| **🎉 TBC**|
+|Item79| **🎉 TBC**|
+|Item80| **🎉 TBC**|
+|Item81| **🎉 TBC**|
+|Item82| **🎉 TBC**|
+|Item83| **🎉 TBC**|
+|Item84| **🎉 TBC**|
+
+
+
+
+
+
