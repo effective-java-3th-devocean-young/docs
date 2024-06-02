@@ -19,9 +19,7 @@
 ## Step 1. Fork Study Repo.
 **스터디 진행을 위해 해당 Repo를 자신의 Repo로 Fork한다.**
 
-## Step 2. Create Your Branch
-
-## Step 3. Write Docs
+## Step 2. Write Docs
 ### Directory Tree
 ```
 [폴더 구조]
@@ -62,15 +60,28 @@ title: effective-java-chapter1
 ## ~~
 ```
 
-## Step 4. Create Pull Request
+## Step 3. Create Pull Request
 - WiKi 작성을 완료하였다면, PR(Pull Request)를 생성.
-- PR을 생성할 때에는 
+- PR 생성 시 Base Repo의 `docs/chapter_xx` branch에 생성.
+    - PR Title은 `[Ch02] 객체 생성과 파괴 - 김경환` 과 같은 형식으로 구성.
+    - PR Description은 PR Template에 맞추어서 작성!
+    - PR Template은 PR 생성 시에 자동으로 구성되도록 설정 완료!
+    ```
+    ## ✏️ 스터디/발표 제목
+    - 스터디 혹은 발표에 대한 간략한 내용을 적어주세요
+
+    ## 🤔 논의하고 싶은 내용 / 질문 등
+    - 학습 내용 기반의 추가적인 논의나 질문 거리에 대해서 작성해주세요
+    ```
+    - PR Reviewers은 모든 스터디원으로 설정.
+    - PR Assignees은 스터디장 (`KyongHwan-Kim`)으로 설정.
+    - PR Labels은 `documentation` 으로 설정.
+    - PR Development는 `[ChXX] Chapter Title`로 올라온 Base Repo의 Issue Link
+- PR은 격주로 진행하는 회고 완료 후 Merge 수행 예정.
 - 각 아이템들을 공부하다가 이해가 되지 않거나 토론할 내용이 있다면 Comment를 남기기.
-## Step 5. Noti Messenger
 
-# To do every weeks
-
-스터디 장은 Project 기준으로 Chapter별로 Issues 생성
+### To do every weeks
+- 스터디 장은 Project 기반으로 Chapter별 Issues 생성
 
 ## 📜회고 진행방식
 - 해당 Comment에 대해서는 자유롭게 답변을 달아 주시면 됩니다.
