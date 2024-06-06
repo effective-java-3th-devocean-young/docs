@@ -18,8 +18,8 @@
 ## 과제 완료 인원
 |이름|닉네임|확인✔|위키|
 |---|------|----|---|
-|김경환|KyongHwan-Kim|🛠|[링크](/effective-java/chapter2/KyongHwan-Kim)|
-|이승연|tmddus2|🛠|[링크](/effective-java/chapter2/tmddus2)|
+|김경환|KyongHwan-Kim|✔|[링크](/effective-java/chapter2/KyongHwan-Kim)|
+|이승연|tmddus2|✔|[링크](/effective-java/chapter2/tmddus2)|
 |송가현|SongGaHyeon|🛠|[링크](/effective-java/chapter2/Songanni)|
 |조자영|cho-ja-young|🛠|[링크](/effective-java/chapter2/cho-ja-young)|
 |한상호|bbbang105|🛠|[링크](/effective-java/chapter2/bbbang105)|
@@ -28,12 +28,12 @@
 ## 발표자
 |Item|Member|
 |----|------|
-|Item1| **🎉 TBC**|
-|Item2| **🎉 TBC**|
-|Item3| **🎉 TBC**|
-|Item4| **🎉 TBC**|
-|Item5| **🎉 TBC**|
-|Item6| **🎉 TBC**|
-|Item7| **🎉 TBC**|
-|Item8| **🎉 TBC**|
-|Item9| **🎉 TBC**|
+|Item1| **🎉 김경환**|
+|Item2| **🎉 김경환**|
+|Item3| **🎉 김경환**|
+|Item4| **🎉 김경환**|
+|Item5| **🎉 김경환**|
+|Item6| **🎉 이승연**|
+|Item7| **🎉 이승연**|
+|Item8| **🎉 이승연**|
+|Item9| **🎉 이승연**|
